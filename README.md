@@ -25,7 +25,7 @@
 ## Notes ##
 - This is a ‘proof of concept’ that is being provided ‘as is’ without any support coverage or warranty.
 - The implementation was tested locally using Liferay DXP 2025.Q1.19 LTS with Local Live Staging.
-  - Ensure it is fully tested in a non-production environment with Remote Live Staging before considering depploying to production.
+  - Ensure it is fully tested in a non-production environment with Remote Live Staging before considering deploying to production.
 - The custom OSGi module must be deployed to all nodes in the live and staging environment clusters.
 - The implementation uses a custom OSGi module meaning it is compatible with Liferay DXP Self-Hosted and Liferay PaaS, but is not compatible with Liferay SaaS.
 - JDK 21 is expected for both compile time and runtime.
